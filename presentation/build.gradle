@@ -34,9 +34,12 @@ dependencies {
 
     compile project(':domain')
     compile project(':data')
+    compile project(':volley')
 
     apt presentationDependencies.daggerCompiler
+
     compile presentationDependencies.dagger
     compile presentationDependencies.appCompat
+
     provided presentationDependencies.javaxAnnotation
 }
